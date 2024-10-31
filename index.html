@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>가위바위보 게임!</title>
-  </head>
-  <body>
-    <h1>가위바위보 게임</h1>
-    <div id="emoji">✌️</div>
-    <!-- 애니메이션 영역 -->
-    <button id="rock">바위</button>
-    <button id="scissors">가위</button>
-    <button id="paper">보</button>
-    <div id="result">게임 결과가 여기에 표시됩니다.</div>
-    <div id="timer">남은 시간: 10초</div>
-    <button id="reset">게임 초기화</button>
-    <!-- 초기화 버튼 추가 -->
 
-    <script type="module" src="main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <title>가위바위보 게임!</title>
+</head>
+
+<body>
+  <!-- 시작 npm run dev -->
+  <!-- 종료 ctrl + c -->
+  <h1>가위바위보 게임</h1>
+  <div class="box">
+    <div class="com">
+      <h2>컴퓨터</h2>
+      <div class="emoji" id="computer">✌️</div>
+    </div>
+    <div class="com">
+      <h2>사용자</h2>
+      <div class="emoji" id="user">✌️</div>
+    </div>
+  </div>
+  <!-- 애니메이션 영역 -->
+  <button id="rock">바위</button>
+  <button id="scissors">가위</button>
+  <button id="paper">보</button>
+  <div id="result">게임 결과가 여기에 표시됩니다.</div>
+  <div id="timer">남은 시간: 5초</div>
+  <button id="reset">게임 초기화</button>
+  <!-- 초기화 버튼 추가 -->
+
+
+  <!-- 피드백 받고
+    기능 추가하기 -->
+
+  <!-- https://velog.io/@teo/2021-%EC%9B%B9-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B3%B5%EB%B6%80%EB%B2%95-%EC%9E%85%EB%AC%B8%EC%9E%90%ED%8E%B8-%EC%BB%A4%EB%A6%AC%ED%81%98%EB%9F%BC -->
+  <script type="module" src="main.js"></script>
+  <script src="main.js"></script>
+</body>
+
 </html>
